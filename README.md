@@ -23,5 +23,5 @@ A aplicação foi desenvolvida em TypeScript, React e Next. utilizou-se NextJs p
 ✅ Concluído
 
 ## 🚀 Links 
-- Site em produção: [Link]([https://github.com/gabrielmoraesy/cine-explorer-moraes/ "Link")
+- Site em produção: [Link](https://cine-explorer-moraes-gabrielmoraesy.vercel.app "Link")
 
