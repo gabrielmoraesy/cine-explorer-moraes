@@ -10,12 +10,12 @@
 
 ## 📋 Descrição do projeto
 Avaliação técnica para o cargo de Estagiário
-A aplicação foi desenvolvida em Next, nela utilizou-se NextJs para gerenciar as Rotas e API da tmdb.
+A aplicação foi desenvolvida em TypeScript, React e Next. utilizou-se NextJs para gerenciar as Rotas e API da tmdb.
 
 ## 💻 Tecnologias utilizadas
 - HTML5
 - CSS3
-- JavaScript
+- TypeScript
 - React
 - NextJs
 
