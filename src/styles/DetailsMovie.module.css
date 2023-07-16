@@ -1,0 +1,277 @@
+.SpinnerContainer {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DetailsMovieMain {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+
+  color: var(--white);
+}
+
+.DetailsMovieHeader {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1.5rem 0rem;
+}
+
+.DetailsMovieHeader h1 {
+  display: flex;
+  align-items: center;
+}
+
+.DetailsMovieTitle {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 2rem;
+  padding: 0rem 2rem;
+  width: 950px;
+}
+
+.DetailsMovieSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SectionTitle {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-200);
+  border-radius: 2rem;
+  width: 585px;
+}
+
+.SectionTitle header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+  background-color: var(--gray-600);
+}
+
+.SectionTitle header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+}
+
+.SectionTitle p {
+  font-size: 1.7rem;
+  margin: 0rem 2rem;
+}
+
+.DetailsMovieSinopseGenres {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.DetailsMovieSinopseGenres h3 {
+  color: var(--gray-600);
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.DetailsGenres {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.DetailsSpanGenres {
+  font-size: 1.5rem;
+  background-color: var(--gray-600);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.DetailsMovieImage {
+  border-radius: 2rem;
+}
+
+.DetailsMovieCards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.DetailsMovieCardsTitle {
+  margin: 2rem 0rem;
+  text-transform: uppercase;
+}
+
+.DetailsMovieCard {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.Cards {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--gray-200);
+
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  height: 90px;
+}
+
+.Cards h3 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+
+  background-color: var(--gray-600);
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.Cards h2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.6rem;
+}
+
+.lightContainer {
+  background-color: var(--blue-light);
+}
+
+.darkContainer {
+  background-color: var(--black-light);
+  color: var(--white);
+}
+
+@media screen and (max-width: 719px) {
+  .DetailsMovieHeader {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .DetailsMovieSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .DetailsMovieTitle {
+    padding: 1.5rem;
+    width: 350px;
+  }
+
+  .DetailsMovieSinopseGenres {
+    margin-bottom: 1.5rem;
+  }
+
+  .SectionTitle {
+    margin-top: 1.2rem;
+    width: 350px;
+  }
+
+  .SectionTitle header h1 {
+    margin: 1.2rem;
+  }
+
+  .DetailsMovieCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Cards {
+    width: 400px;
+  }
+
+  .Cards h2,
+  .Cards h3 {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1000px) {
+  .DetailsMovieHeader {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .DetailsMovieSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .DetailsMovieTitle {
+    padding: 1.5rem;
+    width: 700px;
+  }
+
+  .DetailsMovieSinopseGenres {
+    margin-bottom: 1.5rem;
+  }
+
+  .SectionTitle {
+    width: 350px;
+    min-height: 420px;
+  }
+
+  .SectionTitle header h1 {
+    padding: 1.2rem;
+  }
+
+  .DetailsMovieCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Cards h2,
+  .Cards h3 {
+    padding: 2rem;
+  }
+}

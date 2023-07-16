@@ -1,0 +1,95 @@
+.CardContainer {
+  width: 45rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  border: 0.3rem solid var(--gray-200);
+  border-radius: 3rem;
+
+  margin-inline: 1rem;
+}
+
+.CardHeader {
+  display: flex;
+  flex: 1;
+
+  position: relative;
+  .icon {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+
+    cursor: pointer;
+  }
+}
+
+.CardImage {
+  width: 100%;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.CardBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.CardBodyTitle {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.CardBodyParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CardBodySpan {
+  font-weight: 500;
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 475px) {
+  .CardContainer {
+    flex-grow: 1;
+  }
+
+  .CardBodyTitle {
+    font-size: 2rem;
+  }
+
+  .CardBodyParagraph {
+    font-size: 1.5rem;
+  }
+
+  .CardBodySpan {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .CardContainer {
+    width: 32.5rem;
+  }
+
+  .CardImage {
+    height: 250px;
+  }
+}
