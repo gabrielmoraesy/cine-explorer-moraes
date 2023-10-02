@@ -9,7 +9,6 @@
 [![Screenshot](https://github.com/gabrielmoraesy/cine-explorer-moraes/blob/master/public/img/6.png)](https://github.com/gabrielmoraesy/cine-explorer-moraes/blob/master/public/img/6.png)
 
 ## 📋 Descrição do projeto
-Avaliação técnica para o cargo de Estagiário
 A aplicação foi desenvolvida em TypeScript, React e Next. utilizou-se NextJs para gerenciar as Rotas e API da tmdb.
 
 ## 💻 Tecnologias utilizadas
